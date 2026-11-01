@@ -95,7 +95,7 @@ Configurar en los cuatro servicios:
 
 ```text
 READ_MODEL_PUBLISHER_ENABLED=true
-RABBITMQ_URL=<URL de conexión de CloudAMQP>
+RABBITMQ_URL=amqps://spitutun:... # Misma que usa Logística y sus Workers
 ```
 
 Opcionales — deben coincidir con la configuración del consumidor:
